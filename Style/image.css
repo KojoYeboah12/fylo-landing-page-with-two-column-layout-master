@@ -1,0 +1,47 @@
+.logo-img{
+  height: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+.illustration-one-img,
+.illustration-two-img{
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.curve-image{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: -5px;
+}
+.arrow-img{
+  height: 17px;
+  object-fit: cover;
+  object-position: center;
+  padding-top: 3px;
+  margin-left: 7px;
+}
+.testimonial-img{
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+.phone-img,
+.email-img{
+  margin-right: 10px;
+  height: 15px;
+}
+.last-logo{
+  height: 30px;
+  margin-bottom: 15px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(315deg) brightness(102%) contrast(103%);
+}
+.facebook-img,
+.twitter-img,
+.instagram-img{
+  height: 15px;
+  object-fit: cover;
+  object-position: center;
+}

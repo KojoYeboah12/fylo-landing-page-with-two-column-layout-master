@@ -1,0 +1,33 @@
+.main-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px 30px 30px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 100;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(90, 90, 90, 0.2);
+  border-bottom-style: solid;
+}
+.header-left-side{
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left-side a{
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+.features-word:hover,
+.team-word:hover,
+.sign-word:hover{
+  text-decoration: underline;
+  color: hsl(224, 93%, 58%);
+}
